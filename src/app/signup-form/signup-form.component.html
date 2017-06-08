@@ -1,0 +1,33 @@
+<form>
+  <div class="form-group">
+    <label for="email">email</label>
+    <input [ngStyle]="{border: getEmailBorder()}"
+           type="text"
+           class="form-control"
+           name="email"
+           id="email"
+           [(ngModel)]="email"
+           autofocus />
+
+    <label for="password">password</label>
+    <input [ngStyle]="{border: getPasswordBorder()}"
+           type="password"
+           class="form-control"
+           name="password"
+           id="password"
+           [(ngModel)]="password" />
+
+    <label for="confrim-password">confirm password</label>
+    <input [ngStyle]="{border: getConfirmPasswordBorder()}"
+           type="password"
+           class="form-control"
+           id="confrim-password"
+           name="confirmPassword"
+           [(ngModel)]="confirmPassword" />
+  </div>
+  <button class="btn btn-primary"
+          [disabled]="!validForm()">
+          submit
+  </button>
+</form>
+

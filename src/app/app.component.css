@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: dodgerblue;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  color: #eee;
+}
+
+nav {
+  text-align: right;
+}
+
+nav li {
+  padding: 10px 10px 0 0;
+  display: inline-block;
+}
+
+nav li:first-child {
+  float: left;
+  font-size: 30px;
+  padding: 0 0 0 10px;
+}

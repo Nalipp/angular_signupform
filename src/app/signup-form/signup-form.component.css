@@ -1,0 +1,15 @@
+form {
+  width: 50%;
+  margin: 20px auto;
+  padding: 40px;
+}
+input {
+  display: block;
+}
+label {
+  color: #555;
+  padding-right: 40px;
+}
+p {
+  display: inline-block;
+}
